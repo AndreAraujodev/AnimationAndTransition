@@ -109,3 +109,40 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media(max-width:48.2em) {
+  section.gallery {
+    
+       & header{
+      & h2{
+        font-size: 1.75rem;
+      }
+    }
+
+    & img{
+    margin-block: 0.5rem;
+    object-fit: cover;
+    
+    }
+
+  }
+  section.gallery .content{
+    display: inline-block;
+    flex-direction: column;
+    height: 100%;
+    margin-block: 2rem;
+    
+  
+  }
+
+  & figcaption{
+    display: none;
+  }
+
+
+@keyframes image-appear {
+   display: none;
+}
+
+}
+

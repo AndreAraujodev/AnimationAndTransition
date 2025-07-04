@@ -103,3 +103,16 @@ footer {
     }
   }
 }
+
+@media(max-width:48.2em){
+  footer{
+    display: inline-block;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    & nav {  
+      flex-direction: column;
+      margin-block: 2rem;
+    }
+  }
+}
