@@ -45,12 +45,11 @@ section.hero {
     display: flex;
     gap: 2rem;
     margin-top: 3rem;
-
+  
     & a{
       text-decoration: none;
       color: var(--text);
       font: 500 var(--text-base)/1.5 var(--ff--ff-base);
-
     }
 
     & .button {
@@ -242,6 +241,12 @@ section.hero {
     margin-block: 0;
     align-items: center;
 
+    & .buttons{
+    flex-direction: column-reverse;
+    max-width: 50%;
+    margin: auto;
+  }
+
     & h1{
       padding-inline: 3rem;
     }
@@ -269,13 +274,8 @@ section.hero {
       bottom: 30%;
     }
   }
-  .buttons{
-    flex-direction: column-reverse;
-    max-width: 50%;
-    margin: auto;
   }
-    }
-  }
+}
 
 
 
