@@ -9,8 +9,6 @@ section.hero {
   justify-content: space-between;
   overflow: hidden;
 
-
-
   & h1 {
     max-width: 40rem;
   }
@@ -48,10 +46,10 @@ section.hero {
     gap: 2rem;
     margin-top: 3rem;
 
-    & a {
+    & a{
       text-decoration: none;
-      font: 500 1rem/1.5 "Montserrat", sans-serif;
       color: var(--text);
+      font: 500 var(--text-base)/1.5 var(--ff--ff-base);
 
     }
 
@@ -271,16 +269,14 @@ section.hero {
       bottom: 30%;
     }
   }
-    }
-
-  }
-
   .buttons{
     flex-direction: column-reverse;
     max-width: 50%;
     margin: auto;
-   
   }
+    }
+  }
+
 
 
 

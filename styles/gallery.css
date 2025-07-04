@@ -122,7 +122,7 @@ section.gallery {
     & img{
     margin-block: 0.5rem;
     object-fit: cover;
-    
+
     }
 
   }
@@ -131,8 +131,6 @@ section.gallery {
     flex-direction: column;
     height: 100%;
     margin-block: 2rem;
-    
-  
   }
 
   & figcaption{
